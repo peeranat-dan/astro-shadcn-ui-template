@@ -1,0 +1,20 @@
+---
+import { ThemeToggle } from "@/components/theme/ThemeToggle";
+---
+
+<header
+  class="border-grid sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60"
+>
+  <div class="container-wrapper">
+    <div class="container flex h-14 items-center">
+      <div class="mr-4 flex">Header</div>
+      <div
+        class="flex flex-1 items-center justify-between gap-2 md:justify-end"
+      >
+        <nav class="flex items-center gap-0.5">
+          <ThemeToggle client:load />
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
