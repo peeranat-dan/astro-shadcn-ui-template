@@ -1,10 +1,10 @@
 # Astro Shadcn UI Template
 
-This is a template for Astro 5.1.1 with Shadcn UI.
+A starter template for Astro 7 with shadcn/ui, React 19, and Tailwind CSS 4.
 
 ## Getting Started
 
-Make sure you have Node.js and pnpm installed.
+Requires Node.js (see `.nvmrc`) and pnpm.
 
 ```bash
 git clone --depth=1 https://github.com/peeranat-dan/astro-shadcn-ui-template
@@ -15,11 +15,21 @@ pnpm dev
 
 ## Features
 
-- Tailwind CSS
-- Shadcn UI
-- Astro
-- React
+- Astro 7 with React islands
+- Tailwind CSS 4 via `@tailwindcss/vite`
+- shadcn/ui components built on `radix-ui`
+- Dark mode toggle with persisted preference
 
-## License
+## Adding Components
 
-MIT
+```bash
+pnpm dlx shadcn@latest add <component>
+```
+
+## Scripts
+
+| Command        | Description              |
+| -------------- | ------------------------ |
+| `pnpm dev`     | Start dev server         |
+| `pnpm build`   | Build for production     |
+| `pnpm preview` | Preview production build |
