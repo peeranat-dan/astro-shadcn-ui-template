@@ -10,14 +10,14 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/react": "7.1.4",
+    "@astrojs/react": "7.1.9",
     "@tailwindcss/vite": "4.3.5",
     "@types/react": "19.3.0",
     "@types/react-dom": "19.3.0",
-    "astro": "7.4.7",
+    "astro": "7.4.12",
     "class-variance-authority": "^0.7.1",
     "cn": "0.5.2",
-    "lucide-react": "1.69.0",
+    "lucide-react": "1.72.0",
     "react": "19.3.1",
     "react-dom": "19.3.1",
     "tailwindcss": "4.3.5",
